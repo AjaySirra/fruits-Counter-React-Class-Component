@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  background-size: cover;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card {
+  background-color: #ffffff;
+  height: 100%;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  color: #000000;
+  font-weight: 500;
+  text-align: center;
+}
+.mangoes {
+  color: #ffd569;
+}
+.bananas {
+  color: #ffd569;
+}
+
+.mango-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+}
+.mango-counter {
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 8px;
+  border-width: 0px;
+  font-size: 12px;
+  padding: 10px;
+  margin-top: 12px;
+  outline: none;
+  cursor: pointer;
+}
+.image {
+  width: 155px;
+  height: 155px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruits {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg-container {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
